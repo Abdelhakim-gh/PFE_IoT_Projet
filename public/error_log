@@ -1,0 +1,337 @@
+[05-Feb-2023 00:03:56 UTC] PHP Fatal error:  Trait 'illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:05:04 UTC] PHP Fatal error:  Trait 'illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:05:36 UTC] PHP Fatal error:  Trait 'Illuminate\Database\Eloquent\softDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:05:45 UTC] PHP Fatal error:  Trait 'Illuminate\Database\Eloquent\softDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:06:03 UTC] PHP Fatal error:  Trait 'Illuminate\Database\Eloquent\softDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:07:49 UTC] PHP Fatal error:  Trait 'Illuminate\Database\Eloquent\SoftDeletingTrait' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 9
+[05-Feb-2023 00:08:39 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletingTrait' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:08:56 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:09:08 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:09:32 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:10:33 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:11:53 UTC] PHP Fatal error:  Trait 'App\Models\Illuminate\Database\Eloquent\SoftDeletes' not found in /home/aquil3/admin.mery-ic.com/app/Models/Product.php on line 8
+[05-Feb-2023 00:52:43 UTC] PHP Fatal error:  Class App\Category contains 16 abstract methods and must therefore be declared abstract or implement the remaining methods (OwenIt\Auditing\Contracts\Auditable::audits, OwenIt\Auditing\Contracts\Auditable::setAuditEvent, OwenIt\Auditing\Contracts\Auditable::getAuditEvent, ...) in /home/aquil3/admin.mery-ic.com/app/Category.php on line 8
+[28-Apr-2023 18:20:42 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:42 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:44 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:44 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:50 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:50 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:52 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:52 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:52 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:20:55 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:55 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:20:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:21:04 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:04 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:04 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:21:07 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:07 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:21:32 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:32 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:21:32 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:26:29 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:26:29 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:26:29 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:26:56 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:26:56 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:26:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:27:49 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:27:49 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:27:49 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:27:55 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:27:55 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:27:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:28:41 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:28:41 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:28:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:28:50 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:28:50 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:28:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 18:46:38 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:46:38 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 18:46:38 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:11:58 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:11:58 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:11:58 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:12:06 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:12:06 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:12:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:12:10 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:12:10 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:12:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:43:40 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:43:40 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:43:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:43:55 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:43:55 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:43:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:40 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:40 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:41 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:41 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:41 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:41 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:42 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:42 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:42 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:43 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:43 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:43 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:43 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:43 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:44 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:44 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:45 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:45 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:49:45 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:45 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:49:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:50:12 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:12 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:50:18 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:18 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:50:19 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:19 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[28-Apr-2023 21:50:20 UTC] PHP Warning:  include(/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:20 UTC] PHP Warning:  include(): Failed opening '/home/aquil3/smart_office_iot/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in /home/aquil3/smart_office_iot/vendor/composer/ClassLoader.php on line 571
+[28-Apr-2023 21:50:20 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array, false)
+#3 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Http\\Kernel', Array, false)
+#4 /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}( in /home/aquil3/smart_office_iot/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
