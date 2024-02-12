@@ -1,64 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Projet de PFE IoT
+> **Pour plus de détails, consultez les sections du rapport que vous devez connaître**
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Dans ce projet, nous explorons le concept de l'Internet des objets (IoT) et nous nous concentrons sur la conception d'un prototype de bureau intelligent, appelé "Smart Office", basé sur cette technologie. L'objectif principal est d'optimiser la consommation d'électricité et de mettre en place une plateforme simple à utiliser.
 
-## About Laravel
+### Problématique :
+Les bureaux sont confrontés à de nombreux défis qui peuvent être résolus par l'IoT. Les systèmes de chauffage, de refroidissement et d'éclairage obsolètes peuvent gaspiller de l'énergie, tandis qu'il peut être difficile de contrôler et de surveiller l'accès à différentes parties du bâtiment. Une mauvaise qualité de l'air et une ventilation insuffisante peuvent entraîner une diminution de la santé et de la productivité des employés, et il peut être difficile de suivre l'utilisation des équipements et des ressources. Enfin, une utilisation inefficace de l'espace peut entraîner une surpopulation ou une sous-utilisation de certaines zones. Donc, comment les nouvelles technologies peuvent optimiser ce problème ?
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+### Objectifs :
+Les objectifs du projet sont d'intégrer des solutions IoT pour résoudre les problèmes rencontrés dans les bureaux, d'améliorer l'efficacité énergétique et de réduire les coûts opérationnels. La plateforme IoT joue un rôle essentiel dans la réalisation de ces objectifs en permettant une gestion centralisée des différentes composantes du Smart Office.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Périmètre du projet :
+Le projet consiste à :
+- Allumer/éteindre la lumière [automatiquement ou manuellement]
+- Détecter le mouvement et allumer/éteindre la lumière
+- Régler la luminosité de la lumière
+- Effectuer des opérations de gestion sur les utilisateurs/machines
+- Contrôler les machines inscrites
+- Visualiser les données
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Architecture :
+<img src="ressources/image1.png"></img>
 
-## Learning Laravel
+### Technologies :
+- Arduino IDE
+- Circuito.io
+- XAMPP
+- Postman
+- FileZilla Client
+- Composer
+- HTML
+- Bootstrap
+- Chart.js
+- Laravel
+- APIs 
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Composants :
+<img src="ressources/image3.png"></img>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Déploiement :
 
-## Laravel Sponsors
+<img src="ressources/image4.png"></img>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Pour déployer notre projet, nous utilisons FTP pour transférer les fichiers du projet du PC vers le serveur partagé via le logiciel de transfert de fichiers (FTP) FileZilla Client. Le serveur partagé, associé au domaine "gdn.ma", héberge plusieurs conteneurs pour différents projets, y compris le nôtre. À l'intérieur du serveur partagé, nous avons un conteneur spécifiquement dédié à notre projet. De plus, nous avons configuré un sous-domaine appelé "iot.gdn.ma" qui pointe vers le dossier de notre projet à l'intérieur du conteneur du serveur partagé. Ce sous-domaine agit comme une adresse spécialisée pour accéder à nos fonctionnalités liées à l'IoT. En outre, le serveur partagé comprend également une base de données MySQL, utilisée pour stocker et gérer les données de notre projet de bureau intelligent IoT. L'intégration de la base de données MySQL permet un stockage et une récupération efficaces des données au sein de notre application.
 
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
