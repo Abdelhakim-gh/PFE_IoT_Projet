@@ -43,3 +43,7 @@ Le projet consiste à :
 
 Pour déployer notre projet, nous utilisons FTP pour transférer les fichiers du projet du PC vers le serveur partagé via le logiciel de transfert de fichiers (FTP) FileZilla Client. Le serveur partagé, associé au domaine "gdn.ma", héberge plusieurs conteneurs pour différents projets, y compris le nôtre. À l'intérieur du serveur partagé, nous avons un conteneur spécifiquement dédié à notre projet. De plus, nous avons configuré un sous-domaine appelé "iot.gdn.ma" qui pointe vers le dossier de notre projet à l'intérieur du conteneur du serveur partagé. Ce sous-domaine agit comme une adresse spécialisée pour accéder à nos fonctionnalités liées à l'IoT. En outre, le serveur partagé comprend également une base de données MySQL, utilisée pour stocker et gérer les données de notre projet de bureau intelligent IoT. L'intégration de la base de données MySQL permet un stockage et une récupération efficaces des données au sein de notre application.
 
+### Simulation
+
+<video controls src="__Docs-installation-simulation/platform.mp4" title="Title"></video>
+<video controls src="__Docs-installation-simulation/machine.mp4" title="Title"></video> 
